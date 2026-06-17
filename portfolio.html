@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophiatou Kaire | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Conteneur principal : photo à gauche / infos à droite -->
+    <div class="container">
+
+        <!-- PARTIE GAUCHE : Photo de profil -->
+        <div class="left-panel">
+            <img src="WhatsApp Image 2026-01-22 at 15.25.00.jpeg" alt="Sophiatou Kaire" class="profile-img">
+        </div>
+
+        <!-- PARTIE DROITE : Toutes les informations -->
+        <div class="right-panel">
+
+            <!-- En-tête avec nom et titre -->
+            <header>
+                <h1>Sophiatou Kaire</h1>
+                <p class="sous-titre">Développeuse Full Stack</p>
+            </header>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Section À propos -->
+            <section id="about">
+                <h2>👋 Bienvenue</h2>
+                <h3>Je me nomme sophiatou kaire etudiante en Informatique Developpement D'application à l'unuversité Numerique Cheikh Hamidou Kan. </h3>
+                <p>Je suis une étudiante passionnée par le développement web et les technologies innovantes. J'aime créer des sites modernes, interactifs et accessibles à tous.</p>
+            </section>
+
+            <!-- Section Compétences -->
+            <section id="skills">
+                <h2>💻 Mes Compétences</h2>
+                <div class="skills-container">
+                    <span class="skill">HTML5</span>
+                    <span class="skill">CSS3</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Langage C</span>
+                </div>
+            </section>
+
+            <!-- Section Projets -->
+            <section id="projects">
+                <h2>🚀 Mes Projets</h2>
+                
+                <!-- Galerie de projets avec photos -->
+                <div class="projects-gallery">
+                    <!-- Projet 1 : Sen Marché -->
+                    <div class="project-item">
+                        <img src="img.png.png" alt="Sen Marché - Site e-commerce">
+                        <div class="project-overlay">
+                            <h3>Bambinairie</h3>
+                            <p>Site e-commerce de vêtements et produits de bébés</p>
+                        </div>
+                    </div>
+
+                    <!-- Projet 2 : Bambinairie -->
+                    <div class="project-item">
+                        <img src="site.png.png" alt="Bambinairie">
+                        <div class="project-overlay">
+                            <h3>Sophia Glamour Shop</h3>
+                            <p>Plateforme e-commerce pour produits beautés et parfumeries</p>
+                            <a href="#" target="_blank" class="project-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sénégal Tech en lien cliquable -->
+                <div class="senegal-tech">
+                    <div class="senegal-tech-icon">📚</div>
+                    <div class="senegal-tech-content">
+                        <h3>Sénégal Tech</h3>
+                        <p>Site e-learning proposant des formations gratuites en ligne en développement web et technologies numériques.</p>
+                        <a href="https://sophiakaire-code.github.io/senegal-tech/" target="_blank" class="btn-project">
+                            🔗 Accéder à Sénégal Tech
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sen Marché en lien cliquable -->
+                <div class="sen Marché">
+                    <div class="sen Marché-icon"></div>
+                    <div class="sen Marché-content">
+                        <h3>Sen Marché</h3>
+                        <p>Site e-commerce proposant des produits locales et des matériels technologiques .</p>
+                        <a href="https://coundoul8.github.io/sen-march-/" target="_blank" class="project-link">Voir le projet →">
+                            🔗 Sen Marché
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Contact -->
+            <section id="contact">
+                <h2>📬 Contact</h2>
+                <p>📧 <a href="mailto:sophiakaire@gmail.com">sophiakaire@gmail.com</a></p>
+                <p>📱 71 169 67 92</p>
+                <div class="social-icons">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </section>
+            <!-- Formulaire de contact -->
+<div class="contact-form">
+    <h3>Envoyez-moi un message</h3>
+    <form id="contactForm" action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message">
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+        </div>
+        
+        <button type="submit" class="btn-submit">
+            <span>📨 Envoyer</span>
+        </button>
+    </form>
+    <div id="formMessage" class="form-message"></div>
+</div>
+
+            <!-- Footer refait -->
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h4>Sophiatou Kaire</h4>
+                        <p>Développeuse Full Stack passionnée</p>
+                        <p>Étudiante en développement web</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#about">À propos</a></li>
+                            <li><a href="#skills">Compétences</a></li>
+                            <li><a href="#projects">Projets</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <p>📧 sophiakaire@gmail.com</p>
+                        <p>📱 71 169 67 92</p>
+                        <div class="footer-social">
+                            <a href="#">GitHub</a>
+                            <a href="#">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+</div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Sophiatou Kaire. Tous droits réservés. | Portfolio Développeuse</p>
+                </div>
+            </footer>
+
+        </div>
+        <!-- Fin right-panel -->
+    </div>
+    <!-- Fin container -->
+
+    <script src="script.js"></script>
+</body>
+</html>
